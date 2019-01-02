@@ -1,4 +1,135 @@
-header{
-    background: pink;
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Lato', sans-serif; 
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+   
+
+}
+
+h1 strong{
+    color: #026fff;
+}
+
+.experience-container{
+    background: #fafafa;
+}
+.experience{
+    /* border: tamaño tipo estilo*/
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+}
+
+.experience-details{
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
+.experience-imageContainer{
+    width: 500px;
+    display: inline-block;
+}
+
+.hero{
+    height: 200px;
+    background-image: url('../img/hero3.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-color: #1b2127;
+    background-position-x: right;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    margin-top: 0;
+    display: flex;
+    /* Espacio entre elementos del componente*/
+    justify-content: space-between;
+
+    height: 90px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header ul{
+    display: flex;
+    height: inherit;
+    
+}
+.header ul li{
+    height: inherit;
+    
+}
+.header a {
+    display: block;
+    height: inherit;
+    display:flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.menu{
+    height: inherit;
+}
+ol, ul{
+    /* Sacamos margenes */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+/*
+Esto sirve para colocar elementos uno al lado del otro. 
+Flexbox tendrá a muchos box dentro, y de esta forma ocuparán el espacio horizontalmente, hasta que no
+quepan, y ahí seguirán abajo.- 
+*/
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* Para centrar elementos horizontalmente
+    justify-content: center;
+    */
+    /* Central elementos verticalmente. Requiere un height*/
+    height: 200px;
+    align-items: center;
+
+    /* Cajas se ponganm una al lado de la otra, o una abajo de la otra*/
+    /* flex-direction: column; */ 
+
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    flex-shrink: 0; /* Con esto no se achican las cajas si no caben en el width */ 
+
+    /* Si tenemos tres cajas, y queremos alinear la primera arriba la segunda al medio y la tercera abajo*/
+    /* align-self: flex-start;   */
+}
