@@ -23,11 +23,11 @@ h1{
 }
 
 h1 strong{
-    color: #026fff;
+    color: #ef233c;
 }
 
 h2 {
-    color: #026fff;
+    color: #d90429;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -36,7 +36,7 @@ h2 {
     margin-bottom: 40px;
 }
 .experience-container{
-    background: #fafafa;
+    background: #edf2f4;
     padding: 20px;
 }
 
@@ -82,14 +82,14 @@ h2 {
     background-image: url('../img/hero3.jpg');
     background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-color: #1b2127;
+    background-color: #2b2d42;
     background-position-x: right;
     display: flex;
     align-items: center;
 }
 
 .header{
-    background-color: #1b2127;
+    background-color: #2b2d42;
     color: white;
     margin-top: 0;
     display: flex;
@@ -152,7 +152,9 @@ figure{
 }
 
 .habilities-container{
-    padding: 0 20px;
+    margin: 0 20px 20px 20px;
+    padding: 0 10px;
+    background-color: #f7fcff;
 }
 
 .hability-percentage{
@@ -160,8 +162,96 @@ figure{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
+.hability-angular{
+    width: 60%;
+    background-color: #B52E31; 
+}
+.hability-spring{
+    width: 80%;
+    background-color: #BCE7C1;
+}
+.hability-java{
+    width: 90%;
+    background-color: #EED4D4;
+}
+.hability-web{
+    width: 80%;
+    background-color: #EFCC90;
+}
+
+.hability-python{
+    width: 40%;
+    background-color: #A3B2C9;
+}
+.hability-linux{
+    width: 70%;
+    background-color: #A5A5A5;    
+}
+.hability-percentage{
+    width: 100%;
+    background-color: #ddd;
+}
+.hability-imageContainer{
+    height: 50px;
+}
+
+.contact{
+    background-color: #2b2d42;
+    color:white;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+
+.social-link{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px 50px;
+}
+.social-link.github{
+    background-image: url('../img/github.png');
+}
+.social-link.stackoverflow{
+    background-image: url('../img/stackoverflow.png');
+ 
+}
+.social-link.linkedin{
+    background-image: url('../img/linkedin.png');
+ 
+}
+.form-email{
+    border-color: grey;
+    padding: 10px 30px 10px 35px;
+    width: 220px;
+    background-image: url('../img/envelope.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.contact h3{
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+}
+.form-button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+  
+}
 /*
 Esto sirve para colocar elementos uno al lado del otro. 
 Flexbox tendrá a muchos box dentro, y de esta forma ocuparán el espacio horizontalmente, hasta que no
