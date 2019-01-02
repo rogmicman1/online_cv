@@ -11,7 +11,6 @@ h5,
 h6{
     font-family: 'Lato', sans-serif; 
     font-weight: normal;
-    font-style: italic;
 }
 
 h1{
@@ -27,36 +26,66 @@ h1 strong{
     color: #026fff;
 }
 
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
 .experience-container{
     background: #fafafa;
+    padding: 20px;
+}
+
+.experience-job-company, .experience-date{
+    margin: 10px 0;
+}
+.experience-description{
+    font-size: 20px;
+}
+
+.experience strong{
+    font-family: 'Lato', sans-serif; 
 }
 .experience{
     /* border: tamaño tipo estilo*/
     border: 1px solid grey;
     border-radius: 10px;
-    margin: 10px;
+   
     margin-bottom: 15px;
     padding: 20px;
     background: white;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.experience-job-name{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 .experience-details{
     width: 500px;
-    height: 200px;
+    height: inherit;
     display: inline-block;
 }
 .experience-imageContainer{
-    width: 500px;
     display: inline-block;
 }
 
 .hero{
-    height: 200px;
+    height: 300px;
     background-image: url('../img/hero3.jpg');
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-color: #1b2127;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .header{
@@ -67,7 +96,8 @@ h1 strong{
     /* Espacio entre elementos del componente*/
     justify-content: space-between;
 
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 .header a{
@@ -104,6 +134,34 @@ ol, ul{
 figure{
     margin: 0;
 }
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
+
+.habilities-container{
+    padding: 0 20px;
+}
+
+.hability-percentage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /*
 Esto sirve para colocar elementos uno al lado del otro. 
 Flexbox tendrá a muchos box dentro, y de esta forma ocuparán el espacio horizontalmente, hasta que no
