@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+
 }
 
 h1,
@@ -79,13 +80,10 @@ h2 {
 
 .hero{
     height: 300px;
-    background-image: url('../img/hero3.jpg');
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
     background-color: #2b2d42;
-    background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header{
@@ -251,6 +249,16 @@ figure{
     padding: 10px 20px;
     width: 100px;
   
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    /* Heredamos del padre, para no arruinar el wrapper*/ 
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
 }
 /*
 Esto sirve para colocar elementos uno al lado del otro. 
