@@ -180,8 +180,28 @@ figure{
     background-color: #EFCC90;
 }
 
+
+
+
+.hability-Español{
+    width: 95%;
+    background-color: #032207;
+}
+.hability-ingles{
+    width: 85%;
+    background-color: #100b98;
+}
+.hability-framces{
+    width: 55%;
+    background-color: #227154;
+}
+
+
+
+
+
 .hability-python{
-    width: 40%;
+    width: 70%;
     background-color: #A3B2C9;
 }
 .hability-linux{
@@ -216,8 +236,8 @@ figure{
 .social-link.github{
     background-image: url('../img/github.png');
 }
-.social-link.stackoverflow{
-    background-image: url('../img/stackoverflow.png');
+.social-link.email{
+    background-image: url('../img/email.png');
  
 }
 .social-link.linkedin{
